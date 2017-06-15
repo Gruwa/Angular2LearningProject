@@ -16,7 +16,7 @@ import {
   DurationPipe
 } from './events/index'
 
-import {JQ_TOKEN, CollapsibleWellComponent, SimpleModalComponent} from './common/index'
+import {JQ_TOKEN, CollapsibleWellComponent, SimpleModalComponent, ModalTriggerDirective} from './common/index'
 import { EventsAppComponent } from './events-app.component'
 import { NavBarComponent } from './nav/navbar.component'
 import { appRoutes } from './routes'
@@ -47,7 +47,8 @@ declare let jQuery : Object
     SessionListComponent, 
     CollapsibleWellComponent,
     DurationPipe,
-    SimpleModalComponent
+    SimpleModalComponent,
+    ModalTriggerDirective
     
   ],
   providers: [
